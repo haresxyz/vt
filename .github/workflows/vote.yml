@@ -2,7 +2,7 @@ name: Vote Automation
 
 on:
   schedule:
-    - cron: '0 19 * * *'  # Runs every day at 19:00 UTC
+    - cron: '0 10 * * *'  # Runs every day at 19:00 UTC
   workflow_dispatch:      # Optional: allows manual trigger from GitHub UI
 
 jobs:
