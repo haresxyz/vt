@@ -96,7 +96,7 @@ def vote():
     return False
 
 # Number of times to vote
-total_votes = 10
+total_votes = 100
 
 # Voting loop
 for i in range(total_votes):
